@@ -9,9 +9,9 @@ arch=('x86_64')
 url="https://tools.suckless.org/slock"
 license=('MIT')
 depends=('libxext' 'libxrandr')
-source=("https://dl.suckless.org/tools/$pkgname-$pkgver.tar.gz")
+# source=("https://dl.suckless.org/tools/$pkgname-$pkgver.tar.gz")
 #source=("slock-$pkgver.tar.bz2::https://hg.suckless.org/slock/archive/$_pkgver.tar.gz")
-md5sums=('f91dd5ba50ce7bd1842caeca067086a3')
+# md5sums=('f91dd5ba50ce7bd1842caeca067086a3')
 
 prepare() {
   cd "$srcdir/slock-$pkgver"
